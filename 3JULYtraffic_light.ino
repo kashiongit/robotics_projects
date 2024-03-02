@@ -1,9 +1,10 @@
+//assigning gpio pin number of arduino board to lights 
 const int RED = 13;
 const int YELLOW = 12;
 const int GREEN = 11;
-
+//all of them are for output
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600);//baud rate 9600
   pinMode(RED, OUTPUT);
   pinMode(YELLOW, OUTPUT);
   pinMode(GREEN, OUTPUT);
