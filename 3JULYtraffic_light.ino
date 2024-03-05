@@ -1,4 +1,4 @@
-//assigning gpio pin number of arduino board to lights 
+//assigning gpio pin number from arduino board to lights 
 const int RED = 13;
 const int YELLOW = 12;
 const int GREEN = 11;
